@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index1.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sectionmainpage">
+        <div class="testing">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="img-final">
+            Yamini
+        </div>
+        <h1 class="heading-final">My projects</h1>
+        <p class="paragraph-final">These are a few of my static websites projects that I have developed using HTML,CSS AND Bootstrap</p>
+
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="imagefinal1" onclick="display('sectiontechnology')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="imagefinal2" onclick="display('sectiondiwalipage')">
+        </div>
+
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="imagefinal3" onclick="display('sectionfoodpage')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="imagefinal4" onclick="display('sectionnewspaper')">
+        </div>
+    </div>
+
+
+    <div id="sectiontechnology">
+        <div class="bg-clr d-flex flex-column justify-content-end">
+            <div class="box">
+                <h1 class="heading-clr"> Adavanced Technologies</h1>
+                <p class="paragraph-font">Machinery and eqipment developed from the application of scientific knowledge.</p>
+                <button class="button-one">Learn more</button>
+                <button class="btn btn-primary" onclick="display('sectionmainpage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectiondiwalipage">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionmainpage')">Back</button>
+        </div>
+    </div>
+
+
+
+    <div id="sectionfoodpage">
+        <div class="food-card d-flex flex-column justify-content-end">
+            <div class="food-cardbox">
+                <h1>Happy Meals</h1>
+                <p>Discover the best foods over the 1,000 restaurants</p>
+                <button class="food-buttons">Book Now</button>
+                <button class="btn btn-primary" onclick="display('sectionmainpage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sectionnewspaper">
+        <div class="news-bg-clr d-flex flex-column justify-content-end">
+            <div class="news-box">
+                <p class="news-paragraph-one">NEWS OF THE DAY</p>
+                <h1 class="news-heading-clr">All education institutions in Assam to reopen from november 2</h1>
+                <p class="news-paragraph-two">Uttar pradesh's Gautuam Buddh Nagar recorded 107 new Covid-19 cases on saturday, pushing the didtricts infection tally to 15,803, offical data showed. The number of active cases down further to 1,384 from 1,477 on Friday and 1,523 on Thrusday, according to the data released by the UP Health Department for a 24-hour period </p>
+                <button class="news-buttons">Learn more</button>
+                <button class="btn btn-primary" onclick="display('sectionmainpage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
